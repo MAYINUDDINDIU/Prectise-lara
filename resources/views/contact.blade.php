@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Contact page here</h2>
+    <h2>Contact page here</h2>  
+      {{URL::current()}}
+      {{URL::full()}}
+
+      
+     <a href="{{URL::to('/about')}}">About us</a>
+     <a href="{{URL::to('/contact')}}">Contact us</a>
 </body>
 </html>

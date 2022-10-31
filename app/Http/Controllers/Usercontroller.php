@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class Usercontroller extends Controller
 {
    function show(){
-     return('Hello from controller');
+     $data=['mayin','akash','sajib'];
+     return view('users',["names"=>$data]);
 
    }
 }

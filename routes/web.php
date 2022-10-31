@@ -30,6 +30,8 @@ Route::get('/', function () {
 // });
 Route::view('about','/about');
 Route::view('contact','/contact');
+Route::view('users','/users');
+
 
 Route::get("user",[Usercontroller::class,'show']);
 // Route::get('user','Usercontroller@show');
